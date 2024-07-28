@@ -1,0 +1,82 @@
+.nav__item {
+font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.13px;
+text-align: right;
+color: black;
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: local(PlayfairDisplay-Regular);
+}
+
+#Mod {
+    font-family: "PlayfairDisplay", serif; 
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 103.2px;
+    text-align: center 
+}
+
+#img__2 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: center;
+    color: black;
+}
+
+.conteiner {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    width: 115px;
+    height: 23px;
+    top: 1033px;
+    left: 738px;
+    transform: rotate(90 deg);
+}
+
+#pic {
+    width: 571px;
+    height: 840px;
+    top: 916px;
+    left: 138px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#name {
+    font-family: "PlayfairDisplay", serif;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 114.64px;
+    text-align: right;
+}
+
+
+#art {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: right;
+    color: black;
+}
+
+@font-face {
+    font-family: "Bitter";
+    src: local(Bitter-Regular);
+}
+
+#comment1 {
+    font-family: "Bitter";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31.2px;
+    text-align: right;
+}
