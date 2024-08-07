@@ -12,7 +12,7 @@ color: black;
     src: local(PlayfairDisplay-Regular);
 }
 
-.Mod {
+.mod {
     font-family: "PlayfairDisplay"; 
     font-size: 86px;
     font-weight: 500;
@@ -20,7 +20,7 @@ color: black;
     text-align: center 
 }
 
-.name-Modern {
+.name-modern {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -51,7 +51,7 @@ color: black;
     opacity: 0px;
 }
 
-.name-1 {
+.name-one {
     font-family: "PlayfairDisplay", serif;
     font-size: 86px;
     font-weight: 500;
@@ -60,7 +60,7 @@ color: black;
 }
 
 
-.sign-1 {
+.sign-one {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 500;
@@ -74,7 +74,7 @@ color: black;
     src: local(Bitter-Regular);
 }
 
-.comment-1 {
+.comment-one {
     font-family: "Bitter";
     font-size: 26px;
     font-weight: 400;
@@ -82,7 +82,7 @@ color: black;
     text-align: left;
 }
 
-.block-1 {
+.block-one {
 font-family: Roboto;
 font-size: 24px;
 font-weight: 700;
@@ -90,7 +90,7 @@ line-height: 28.13px;
 text-align: left;
 }
 
-#pic_3{
+#pic_3 {
 width: 572px;
 height: 538px;
 }
@@ -174,7 +174,7 @@ height: 555px;
 left: 1553px;
 }
 
-.block-2 {
+.block-two {
 font-family: Roboto;
 font-size: 24px;
 font-weight: 700;
@@ -182,7 +182,7 @@ line-height: 28.13px;
 text-align: right;    
 }
 
-.Web {
+.web {
 font-family: Roboto;
 font-size: 16px;
 font-weight: 700;
@@ -190,7 +190,7 @@ line-height: 18.75px;
 text-align: left;
 }
 
-.inline2 {
+.inline-two {
 font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
@@ -198,7 +198,7 @@ line-height: 18.75px;
 text-align: left;  
 }
 
-.comment-2 {
+.comment-two {
 font-family: Bitter;
 font-size: 32px;
 font-weight: 400;
@@ -206,7 +206,7 @@ line-height: 38.4px;
 text-align: center; 
 }
 
-.block-3 {
+.block-three {
 font-family: Roboto;
 font-size: 24px;
 font-weight: 700;
