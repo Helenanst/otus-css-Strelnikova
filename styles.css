@@ -27,7 +27,7 @@ justify-content: right;
 
 @font-face {
     font-family: "PlayfairDisplay";
-    src: local(PlayfairDisplay-Regular);
+    src: url(/font/static/PlayfairDisplay-Regular.ttf)
 }
 
 .mod {
@@ -81,7 +81,6 @@ justify-content: right;
 }
 
 .box-block {
-margin-top: 180px;
 width: 455px;
 height: 840px;
 top: 916px;
@@ -105,7 +104,7 @@ margin-bottom: 38px;
 
 @font-face {
 font-family: "Bitter";
-src: local(Bitter-Regular);
+src: url(/font/static/Bitter-Regular.ttf)
 }
 
 #rectangle {
@@ -131,7 +130,7 @@ font-family: Roboto;
 font-size: 24px;
 font-weight: 700;
 line-height: 28.13px;
-text-align: left;
+margin-left: 101px;
 }
 
 #pic_3 {
@@ -139,12 +138,40 @@ width: 572px;
 height: 538px;
 }
 
+.Design-block {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid: template rows 200px;
+    grid-gap: 10px;
+    overflow-x: auto;
+    align-items: end;
+    margin-top: 20px;
+}
+
 .name-all {
 font-family: Roboto;
 font-size: 16px;
 font-weight: 700;
 line-height: 18.75px;
-text-align: left;
+}
+    
+.Design-block-name {
+grid-row: 2/2;
+justify-self: end;
+width: 332px;
+height: 57px;
+}
+
+.Design-block-name-2 {
+grid-row: 2/2;
+}
+
+.Design-block-name-3 {
+grid-row: 2/2;
+}
+
+.Design-block-name-4 {
+grid-row: 2/2;
 }
 
 .sign-all {
@@ -163,25 +190,26 @@ line-height: 18.75px;
 text-align: left;
 }
 
+.Design-pic {
+align-items: center;
+}
+
 #pic_4 {
 width: 335.96px;
 height: 439.46px;
 top: 99px;
-left: 593.04px;
 }
 
 #pic_5 {
 width: 330.78px;
 height: 439.46px;
 top: 99px;
-left: 949px;
 }
 
 #pic_6 {
 width: 335.96px;
 height: 439.46px;
 top: 99px;
-left: 1301.04px;
 }
 
 
@@ -210,23 +238,30 @@ left: 1553px;
 
 .container {
     display: inline-grid;
-    grid-template-columns: 190px 451px 140px 451px;
-    grid-template-rows: 250px 250px 250px ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 15rem 15rem 15rem ;
     gap: 10px;
+    margin-top: 80px;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    a {
+        color:black;
+       }
   }
 
   
   .web-1 {
-  padding: 20px;
-  margin: auto;
   grid-row: 3 / 3;
   width: 190px;
   height: 49px;
-  transform: rotate(-90deg)
+  margin: auto;
+  transform: rotate(-90deg);
   }
   
   .web-2 {
-  padding: 20px;
   margin: auto;
   grid-row: 2 / 2;
   width: 190px;
@@ -235,7 +270,6 @@ left: 1553px;
   }
   
   .web-3 {
-  padding: 20px;
   margin: auto;
   grid-row: 1 / 1;
   width: 190px;
@@ -244,7 +278,6 @@ left: 1553px;
   }
   
   .pic {
-  grid-row: 1 / 3;
   width: 451px;
   height: 760px;
   left: 118px;
@@ -385,8 +418,7 @@ justify-content: center;
 
 .block-Kate {
 display: flex;
-max-width: 1165px;
-max-height: 840px;
+justify-content: center;
 box-sizing: border-box;
-margin: 151px;
+margin: 89px;
 }
