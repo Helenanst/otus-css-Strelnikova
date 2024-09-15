@@ -453,21 +453,23 @@ display:flex;
 flex-wrap:wrap;
 }
         
-/*Нужно ли тут что-то сделать или нет?.title-menu {
-        display:flex;
-        justify-content:flex-start;
-        align-items:flex-start;
-        }*/
+.title-menu {
+margin-left:-300px;
+}
 
-/*Не понятно, как растянуть*/
 .section-with-no-wrap {
 margin-top: 5%;
 background-size: cover;
 }
 
-/*Не понятно, как сделать картинку полностью видимой*/
+
 .block-Kate {
-width: 100%
+display:flex;
+flex-direction:column;
+}
+
+.block {
+transform:none;
 }
 
 .Design-block {
@@ -475,6 +477,24 @@ width:100%;
 display: flex;
 flex-direction:column;
 align-items:baseline;
+}
+
+    
+.container {
+display:flex;
+flex-direction:column;
+}
+
+.menu {
+transform:none;
+}
+
+.name-block {
+margin-left: 300px;
+}
+    
+.block-testimonials {
+justify-items: end;
 }
 
 .strong-point {
