@@ -1,0 +1,422 @@
+.nav__item {
+font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.13px;
+color: black;
+width: 100%;
+height: 100%;
+padding: 20px;
+}
+
+.name-Mode {
+font-family: "PlayfairDisplay", serif;
+font-size: 86px;
+font-weight: 600;
+line-height: 103.2px;
+width: 182px;
+height: 100%;
+margin-right: 640px;
+}
+
+.nav {
+display: flex;
+align-items: center;
+justify-content: right;
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: local(PlayfairDisplay-Regular);
+}
+
+.mod {
+    font-family: "PlayfairDisplay", serif; 
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 103.2px;
+    margin-top: 110px;
+    margin-bottom: 14px;
+    text-align: center 
+}
+
+.name-modern {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    display: flex;
+    text-align: center;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    width: 115px;
+    height: 23px;
+    margin-top: 38px;
+    transform: rotate(-90deg)
+}
+
+#pic {
+    width: 571px;
+    height: 840px;
+    top: 916px;
+    left: 138px;
+    object-fit: cover;
+}
+
+.name-one {
+    font-family: "PlayfairDisplay", serif;
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 114.64px;
+    text-align: left;
+    margin-bottom: 38px;
+}
+
+.box-block {
+margin-top: 180px;
+width: 455px;
+height: 840px;
+top: 916px;
+left: 848px;
+padding: 18px 0px 18px 0px;
+gap: 36px;
+opacity: 0px; 
+}
+
+.sign-one {
+font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.09px;
+text-align: left;
+color: black;
+width: 466.04px;
+margin-top: 42px;
+margin-bottom: 38px;
+}
+
+@font-face {
+font-family: "Bitter";
+src: local(Bitter-Regular);
+}
+
+#rectangle {
+width: 20px;
+height: 6px; 
+margin-top: 38px;
+background-color: black; 
+}
+
+.comment-one {
+font-family: Bitter;
+font-size: 26px;
+font-weight: 400;
+line-height: 31.2px;
+width: 468px;
+height: 148px;
+gap: 18px;
+margin-top: 18px;
+}
+
+.block-one {
+font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+line-height: 28.13px;
+margin-left: 101px;
+}
+
+#pic_3 {
+width: 572px;
+height: 538px;
+}
+
+.Design-block {
+display: grid;
+grid-template-columns: repeat(4, 2fr);
+grid: template rows 200px;
+grid-gap: 10px;
+overflow-x: auto;
+align-items: end;
+margin-top: 20px;
+}
+
+.name-all {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 18.75px;
+}
+    
+.Design-block-name {
+grid-row: 2/2;
+justify-self: end;
+width: 332px;
+height: 57px;
+}
+
+.Design-block-name-2 {
+grid-row: 2/2;
+}
+
+.Design-block-name-3 {
+grid-row: 2/2;
+}
+
+.Design-block-name-4 {
+grid-row: 2/2;
+}
+
+.sign-all {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 18.75px;
+text-align: left;
+}
+
+.inline {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.75px;
+text-align: left;
+}
+
+.Design-pic {
+align-items: center;
+}
+
+#pic_4 {
+width: 335.96px;
+height: 439.46px;
+top: 99px;
+}
+
+#pic_5 {
+width: 330.78px;
+height: 439.46px;
+top: 99px;
+}
+
+#pic_6 {
+width: 335.96px;
+height: 439.46px;
+top: 99px;
+}
+
+
+#pic_9 {
+width: 335px;
+height: 554px;
+}
+
+#pic_10 {
+width: 335px;
+height: 554px;
+left: 356px;
+}
+
+#pic_11 {
+width: 335px;
+height: 555px;
+left: 1183px;
+}
+
+#pic_12 {
+width: 335px;
+height: 555px;
+left: 1553px;
+}
+
+.container {
+    display: inline-grid;
+    grid-template-columns: 190px 451px 140px 451px;
+    grid-template-rows: 250px 250px 250px ;
+    gap: 10px;
+    margin-top: 80px;
+  }
+
+  
+  .web-1 {
+  padding: 20px;
+  margin: auto;
+  grid-row: 3 / 3;
+  width: 190px;
+  height: 49px;
+  transform: rotate(-90deg)
+  }
+  
+  .web-2 {
+  padding: 20px;
+  margin: auto;
+  grid-row: 2 / 2;
+  width: 190px;
+  height: 49px;
+  transform: rotate(-90deg)
+  }
+  
+  .web-3 {
+  padding: 20px;
+  margin: auto;
+  grid-row: 1 / 1;
+  width: 190px;
+  height: 49px;
+  transform: rotate(-90deg)
+  }
+  
+  .pic {
+  grid-row: 1 / 3;
+  width: 451px;
+  height: 760px;
+  left: 118px;
+  gap: 0px;
+  opacity: 0px;
+  }
+  
+  .name-block {
+  width: 140px;
+  height: 28px;
+  top: 140px;
+  left: 593px;
+  margin-top: 55px;
+  margin-left: -50px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  transform: rotate(-90deg)
+  }
+  
+  .block-testimonials {
+  display: grid;
+  grid-template-columns: 451px;
+  grid-template-rows: 380px 380px ;
+  gap: 20px;
+  width: Fixed (451px)px;
+  height: Fixed (760px)px;
+  left: 712px;
+  gap: 42px; 
+  }
+  
+  .block-content {
+  width: 221px;
+  height: 304px;
+  font-family: Bitter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: center;
+  margin-top: 56px;
+  }
+  
+
+#pic_7 {
+width: 451px;
+height: 760px;
+left: 118px;
+}
+
+.block-picture {
+width: 221px;
+height: 333px;
+margin-top: -45px;
+}
+
+
+.block-three {
+font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+line-height: 28.13px;
+}
+
+.name-list {
+font-family: Playfair Display;
+font-size: 86px;
+font-weight: 500;
+line-height: 86px;
+}
+
+
+.list {
+font-family: Bitter;
+font-size: 34px;
+font-weight: 400;
+line-height: 40.8px;
+}
+
+.tel {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left; 
+}
+
+.name-studio {
+font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.09px;
+text-align: center;
+}
+
+.inline_3 {
+font-family: Roboto;
+font-size: 24px;
+font-weight: 900;
+line-height: 28.13px;
+text-align: center;  
+}
+
+.end {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.75px;
+text-align: right;  
+}
+
+.title-menu {
+width: 1,195px;
+height: Hug 28px;
+gap: 55px;
+opacity: 0px;
+text-align: right;
+}
+
+.section-with-no-wrap {
+background: url(/img/1.jpg);
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 630px;
+width: 100%;
+top: 135px;
+padding: 0 auto;
+}
+
+.title-box {
+min-width:690px;
+min-height: 360px;
+background: rgba(255, 255, 255, 1);
+align-items: center;
+justify-content: center;
+}
+
+.block-Kate {
+display: flex;
+max-width: 1165px;
+max-height: 840px;
+box-sizing: border-box;
+margin: 151px;
+}
