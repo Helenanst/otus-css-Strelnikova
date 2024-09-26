@@ -8,6 +8,7 @@ color: black;
 width: 100%;
 height: 100%;
 padding: 20px;
+text-decoration:none;
 }
 
 .name-Mode {
@@ -17,13 +18,12 @@ font-weight: 600;
 line-height: 103.2px;
 width: 182px;
 height: 100%;
-margin-right: 640px;
 }
 
 .nav {
 display: flex;
 align-items: center;
-justify-content: right;
+justify-content: space-between;
 }
 
 @font-face {
@@ -402,12 +402,12 @@ text-align: right;
 }
 
 .section-with-no-wrap {
-background: url(/img/1.jpg);
+background: url(/img/1.jpg) 100%;
 display: flex;
 align-items: center;
 justify-content: center;
 min-height: 630px;
-width: 100%;
+background-size: 100%;
 top: 135px;
 padding: 0 auto;
 }
@@ -424,7 +424,7 @@ justify-content: center;
 display: flex;
 justify-content: center;
 box-sizing: border-box;
-margin: 89px;
+margin-top: 151px;
 }
 
 .strong-point {
@@ -448,58 +448,59 @@ justify-content: center;
 
 @media all and (max-width:768px) {
 
-.header {
-display:flex;
-flex-wrap:wrap;
-}
+    .header {
+    display:flex;
+    flex-wrap:wrap;
+    }
+            
+    .title-menu {
+    margin-left:-300px;
+    }
+    
+    /*Не понятно, как растянуть*/
+    .section-with-no-wrap {
+    margin-top: 5%;
+    background-size: cover;
+    }
+    
+    
+    .block-Kate {
+    display:flex;
+    flex-direction:column;
+    }
+    
+    .block {
+    transform:none;
+    }
+    
+    .Design-block {
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    align-items:baseline;
+    }
+    
         
-.title-menu {
-margin-left:-300px;
-}
-
-.section-with-no-wrap {
-margin-top: 5%;
-background-size: cover;
-}
-
-
-.block-Kate {
-display:flex;
-flex-direction:column;
-}
-
-.block {
-transform:none;
-}
-
-.Design-block {
-width:100%;
-display: flex;
-flex-direction:column;
-align-items:baseline;
-}
-
+    .container {
+    display:flex;
+    flex-direction:column;
+    }
     
-.container {
-display:flex;
-flex-direction:column;
-}
-
-.menu {
-transform:none;
-}
-
-.name-block {
-margin-left: 300px;
-}
+    .menu {
+    transform:none;
+    }
     
-.block-testimonials {
-justify-items: end;
-}
-
-.strong-point {
-display: grid;
-grid-template-columns: 1fr 1fr;
-}
-
-}
+    .name-block {
+    margin-left: 300px;
+    }
+        
+    .block-testimonials {
+    justify-items: end;
+    }
+    
+    .strong-point {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    
+    }
