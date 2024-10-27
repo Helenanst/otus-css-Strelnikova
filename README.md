@@ -1,1 +1,1 @@
-# otus-css-Strelnikova
+Проект ModStudio
