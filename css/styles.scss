@@ -160,12 +160,16 @@ text-align: left;
 text-align: left;
 }
     
-    
+.testimonials {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 15rem 15rem 15rem;
+margin-top: 10%;
+}  
+
 .testimonials__webmenu-block {
 display: inline-grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 15rem 15rem 15rem ;
-gap: 10px;
+grid-template-rows: 15rem 15rem 15rem;
 margin-top: 80px;
 justify-content: center;
 @include txt ('Roboto','16px','700','18.75px')
@@ -174,63 +178,57 @@ a {color:black;}
     
 .webmenu {
 @include pic ('190px','49px')
-margin: auto;
+margin: 0 auto;
+rotate: 360deg;
 }
 
 
 .web-1 {
-grid-row: 3 / 3;
-transform: rotate(-90deg);
+grid-row: 3;
 }
       
 .web-2 {
-grid-row: 2 / 2;
-transform: rotate(-90deg);
+grid-row: 2;
 }
       
 .web-3 {
-grid-row: 1 / 1;
-transform: rotate(-90deg);
+grid-row: 1;
 }
       
 .testimonials__block {
+@include txt ('Roboto','24px','700','18.75px')
+text-align: right;
 width: 140px;
 height: 28px;
 top: 140px;
 left: 593px;
 margin-top: 55px;
 margin-left: -50px;
-@include txt ('Roboto','24px','700','18.75px')
 transform: rotate(-90deg)
-      }
+}
       
 .testimonials__title-menu {
-display: grid;
-grid-template-columns: 451px;
-grid-template-rows: 380px 380px ;
 gap: 20px;
-width: Fixed (451px)px;
-height: Fixed (760px)px;
-left: 712px;
-gap: 42px; 
+gap: 42px;
 }
       
 .testimonials__comment {
-width: 221px;
-height: 304px;
 @include txt ('Bitter','32px','400','38.4px')
 text-align: center;
 margin-top: 56px;
+width: 221px;
+height: 304px;
 }
       
     
 .testimonials__pic-1 {
 @include pic ('451px','760px')
+left: 712px;
+gap: 42px;
 }
     
 .testimonials__pic-2 {
 @include pic ('221px','333px')
-margin-top: -45px;
 }
     
 .strong-points__block {
@@ -347,59 +345,137 @@ a {color: aliceblue;}
 line-height: 140px;
 }
     
-@media all and (max-width:768px) {
-    
-        .header {
-        display:flex;
-        flex-wrap:wrap;
-        }
-                
-        .title-menu {
-        margin-left:-300px;
-        }
+
+@media all and (max-width: 768px) {
+
+      .header {
+      display:flex;
+      margin: 0 auto;
+      width: 100%;
+      }
+                          
+      .menu__title-menu {
+      display:flex;
+      flex-direction: column;
+      gap: 0;
+      margin-left: 70%;
+      }
+      
+      .section-with-no-wrap {
+      width: 100%;
+      }
+      
+      .biography {
+      display:flex;
+      flex-direction: column;
+      width: 100%;
+      }
+      
+      .biography__box-block {
+      width: 100%;
+      height: fit-content;
+      justify-items: center;
+      }
+      
+      .biography__block {
+      rotate: 90deg;
+      }
+      
+      .designers {
+      display:grid;
+      width: 100%;
+      }
+      
+      .designers__menu {
+      grid-template-columns: 1fr;
+      }
+      
+      .menu-item-1 {
+      margin: 0%;
+      justify-items: center;
+      }
+      
+      .designers__pic-1 {
+      width: 100%;
+      }
+      
+      .menu-item-2 {
+      margin: 0%;
+      justify-items: center;
+      }
+      
+      .menu-item-3 {
+      margin: 0%;
+      justify-items: center;
+      }
+      
+      .menu-item-4 {
+      margin: 0%;
+      justify-items: center;
+      }
+      
+      .designers__name {
+      margin: 0%;
+      }
+      
+      .testimonials {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      width: 100%;
+      }
+      
+      .testimonials__webmenu-block {
+      display: grid;
+      grid-template-rows: 6rem;
+      margin-top: 0%;
+      margin-left: -20%;
+      }
+      
+      .webmenu {
+      rotate: 360deg;
+      }
+      
+      .web-1 {
+      grid-row: 1;
+      }
         
-        /*Не понятно, как растянуть*/
-        .section-with-no-wrap {
-        margin-top: 5%;
-        background-size: cover;
-        }
+      .web-2 {
+      grid-row: 1;
+      }
         
-        
-        .block-Kate {
-        display:flex;
-        flex-direction:column;
-        }
-        
-        .block {
-        transform:none;
-        }
-        
-        .Design-block {
-        width:100%;
-        display: flex;
-        flex-direction:column;
-        align-items:baseline;
-        }
-        
-            
-        .container {
-        display:flex;
-        flex-direction:column;
-        }
-        
-        .menu {
-        transform:none;
-        }
-        
-        .name-block {
-        margin-left: 300px;
-        }
-            
-        .block-testimonials {
-        justify-items: end;
-        }
-        
-        .strong-point {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        }
+      .web-3 {
+      grid-row: 1;
+      }
+      
+      .testimonials__block {
+      rotate: 90deg;
+      margin: 0 auto;
+      }
+      
+      .testimonials__title-menu {
+      justify-items: center;
+      }
+      
+      
+      .strong-points {
+      display: grid;
+      width: 100%;
+      }
+      
+      .strong-points__block-title {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      justify-items: center;
+      }
+      
+      .strong-points__block {
+      justify-items: center;
+      margin: 0 auto;
+      }
+      
+      .footer {
+      width: 100%;
+      margin-top: 5%;
+      }
+}
